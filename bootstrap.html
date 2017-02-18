@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="bootstrap/js/jquery-2.2.4.min.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+            
+        <title>Kitty Portfolio</title>
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <img class="title-logo" src="http://placekitten.com/100/100" alt="Kitty logo">
+                </div>
+                <div class="col-sm-6 text-right text-uppercase">
+                    <h1 class="title-super text-thin">Jane Doette</h1>
+                    <h4>Front-end Ninja</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <img class="img-responsive" src="http://placekitten.com/1140/350" alt="Main Kitty image" >
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="text-muted">Featured Work</h2>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <img data-toggle="modal" data-target="#project1" class="img-responsive" src="300.jpg" alt="Appify kitty">
+                    <h3 class="text-uppercase">Appify</h3>
+                    <p><a href="http://github.com/udacity/appify">
+                        http://github.com/udacity/appify</a></p>
+                </div>
+                <div class="col-sm-4">
+                    <img data-toggle="modal" data-target="#project2" class="img-responsive" src="300.jpg" alt="Sunflower kitty">
+                    <h3 class="text-uppercase">Sunflower</h3>
+                    <p><a href="http://github.com/udacity/sunflower">
+                        http://github.com/udacity/sunflower</a></p>
+                </div>                
+                <div class="col-sm-4">
+                    <img data-toggle="modal" data-target="#project3" class="img-responsive" src="300.jpg" alt="Bokeh kitty">
+                    <h3 class="text-uppercase">Bokeh</h3>
+                    <p><a href="http://github.com/udacity/bokeh">
+                        http://github.com/udacity/bokeh</a></p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Modal 1 -->
+        <div class="modal fade" id="project1" tabindex="-1" role="dialog" >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel1">Favorite App Page</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="300.jpg" alt="Appify kitty">
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>  
+
+        <!-- Modal 2 -->
+        <div class="modal fade" id="project2" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel2">Favorite App Page</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="300.jpg" alt="Sunflower kitty">
+                        This was my second project in this class.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 3 -->
+        <div class="modal fade" id="project3" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel3">Favorite App Page</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="300.jpg" alt="Bokeh kitty">
+                        This was my third project in this class.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </body>
+</html>
